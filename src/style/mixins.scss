@@ -1,0 +1,39 @@
+%full {
+    width : 100%;
+    height: 100vh;
+    height: 100dvh;
+    height: 100dvh;
+}
+
+%center {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+%align-center {
+    display        : flex;
+    align-items    : center;
+}
+
+%between {
+    display        : flex;
+    justify-content: space-between;
+}
+
+%column {
+    display       : flex;
+    flex-direction: column;
+}
+
+%between-column {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+%end{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}

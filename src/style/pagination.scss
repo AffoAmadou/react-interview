@@ -1,0 +1,36 @@
+.pagination {
+
+  button {
+    padding: 1rem 2rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+
+    &:disabled {
+      background-color: #c0c0c0;
+      cursor: not-allowed;
+    }
+  }
+
+  span {
+    margin: 0 1rem;
+    font-size: 1rem;
+  }
+
+  select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
