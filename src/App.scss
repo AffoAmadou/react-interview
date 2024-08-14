@@ -16,6 +16,7 @@ html {
   font-size: calc($vw / 1920px * 10px);
   line-height: 1;
 
+  overflow-x: hidden;
 
 
   @media screen and (max-width: 1025px) {
@@ -27,7 +28,6 @@ html {
     $vw: 100vw;
     font-size: calc($vw / 430px * 10px);
   }
-  overflow-x: hidden;
 }
 
 .container {
